@@ -6,31 +6,40 @@ h1 {
 }
 
 img {
-    
-    /*border-style: double;
-        border-color: black;
-        border-width: 20px;
-        padding: 1 5 9px;*/
-
     border-radius: 50%;
-    border-style: double;
-    border-color: orangered;
-    border-width: .04 3rem;
-    width: 300px;
-    margin: 30 60px;
+    width: 200px;
+    height: 200px;
 }
 .box{
     width: 300px;
 
 }
 body {
-    margin: 20 60px;
-    background: linear-gradient(olive  , blue)
+    background: linear-gradient(blue  , black)
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+.contact-further {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+
 
 p {
     font-size: 20px;
     color: orange;
+    position: relative;
+    margin: 10 20px;
+    padding: 5px;
+    min-width: 300px;
 }
 
 li {color: orange;
@@ -38,8 +47,6 @@ li {color: orange;
     padding: 2px;
     text-align: left;
     width: 500px;
-    border-style: dotted;
-    border-width: 2px;
 }
 
 h2 {
@@ -47,18 +54,19 @@ h2 {
     color: orange;
     padding: 5px;
     font-size: 20px;
+    display: block;
 }
 h3 {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     font-weight: bold;
     color: orange;
+    padding: 10px;
 }
 
 form {
     color: orange;
     font-size: 20px;
-    padding: 10px;
 }
 
 table {
@@ -74,10 +82,13 @@ header {
 }
 
 h4 {
-    text-align: center;
+    text-align: left;
         font-size: 20px;
         font-weight: bold;
         color: orange;
+}
+a {
+    padding: 0;
 }
 
 a {
